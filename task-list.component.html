@@ -1,0 +1,6 @@
+<p>TO DO LIST:</p>
+<ul>
+    <li *ngFor="let task of tasks">
+      {{ task }} <button (click)="onDelete(task)">Delete</button>
+    </li>
+  </ul>

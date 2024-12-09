@@ -1,0 +1,5 @@
+<p>WHAT'S NEW FOR TODAY?</p>
+<form (ngSubmit)="onSubmit()" #taskForm="ngForm">
+    <input type="text" [(ngModel)]="task" name="task" required placeholder="Add a new task" />
+    <button type="submit" [disabled]="!taskForm.form.valid">Add Task</button>
+  </form>

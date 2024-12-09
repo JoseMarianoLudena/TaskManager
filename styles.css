@@ -1,0 +1,97 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #aaa4a4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .app-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .app-header h1 {
+    color: #333;
+  }
+  
+  .app-main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #e9ecef;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #c82333;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, .5);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+    .google-style-title {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 48px; 
+    font-weight: bold;
+    color: #3044c8;
+    display: inline-block;
+    text-shadow: 1px 1px 0 #EA4335,  
+                 1px 1px 0 #FBBC05,  
+                 1px 1px 0 #34A853; 
+    margin: 0;
+    letter-spacing: 1px; 
+  }
+  
+
+  .google-style-title:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+  }
+  
